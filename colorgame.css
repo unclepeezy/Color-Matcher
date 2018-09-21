@@ -1,0 +1,55 @@
+body{
+    background: #232323;
+}
+#colorDisplay{
+    font-size: 1.5em;
+}
+
+#message{
+    display: inline-block;
+
+    min-width: 150px;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: #232323;
+}
+
+button{
+    border: none;
+    height: 100%;
+    font-family: "Comfort Infant";
+    font-weight: bold;
+    font-size: 18px;
+    color: #69f;
+}
+
+button:hover{
+    background: #69f;
+    color: white;
+}
+
+h1{
+    color: white;
+    margin: 0 auto;
+    text-align:center;
+    background-color: #69f;
+    font-family: Coda;
+    font-weight: normal;
+}
+
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.square{
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left;
+    border-radius: 22px;
+}
